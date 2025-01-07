@@ -51,7 +51,7 @@ install_zig() {
   esac
 
   local json
-  json=$(curl --fail --silent --location https://ziglang.org/download/index.json)
+  json=$(curl --fail --silent --location https://machengine.org/zig/index.json)
 
   local download_url
   download_url=$(
